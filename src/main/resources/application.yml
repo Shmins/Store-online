@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:store
+    username: store
+    password: 0BC299215A
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+
+
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+    hibernate:
+      ddl-auto: update
