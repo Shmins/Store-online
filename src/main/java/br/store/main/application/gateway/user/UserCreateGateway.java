@@ -1,4 +1,4 @@
-package br.store.main.application.gateway;
+package br.store.main.application.gateway.user;
 
 import br.store.main.core.domain.UserModel;
 
